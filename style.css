@@ -1,0 +1,23 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+    font-family: "Kiwi Maru", serif;
+    color: white;
+}
+main{
+    height: 750px;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgb(72, 255, 127), rgb(81, 220, 227) 20%);
+    background-repeat: no-repeat;
+}
+#place{
+    padding-top: 75px;
+    text-align: center;
+
+    font-size: 42px;
+}
+.contents{
+    text-align: center;
+    font-size: 30px;
+}
