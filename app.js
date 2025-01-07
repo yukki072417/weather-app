@@ -12,8 +12,6 @@ async function requestWeather() {
   let response = {};
 
   //Mission2. ここに天気を調べたい地域の緯度経度を入力
-  const latitude = 35.681236;
-  const longitude = 139.767125;
 
   // APIリクエストURL
   let url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&timezone=Asia/Tokyo`;
