@@ -60,7 +60,6 @@ async function requestWeather() {
     // 読み込まれた時に実行される処理
     xhr.onload = async () => {
       const data = JSON.parse(xhr.responseText);
-      console.log(data);
       resolve(data);
     };
   });
