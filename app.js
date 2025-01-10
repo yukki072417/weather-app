@@ -5,17 +5,17 @@ const thunderImage = "./images/thunder.png";
 
 window.onload = function () {
   const place = document.getElementById("place");
-  //Mission2. ここに天気を調べたい地域の緯度経度を入力
+  //Mission1. 大阪府の天気を調べていることをサイト上で表示しよう
   
   
 }
 async function requestWeather() {
   let response = {};
-  //Mission1. ここに天気を調べたい地域を入力 
-
+  //Mission2. 経度と緯度で、大阪府の天気情報を指定しよう
+  
 
   // APIリクエストURL
-  let url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&timezone=Asia/Tokyo`;
+  const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current_weather=true&timezone=Asia/Tokyo`;
 
   // 天気コードに対応する天気の日本語表記
   const weatherDescriptions = {
