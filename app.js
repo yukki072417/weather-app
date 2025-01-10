@@ -7,7 +7,6 @@ window.onload = function () {
   const place = document.getElementById("place");
   //Mission1. 大阪府の天気を調べていることをサイト上で表示しよう
   
-  
 }
 async function requestWeather() {
   let response = {};
