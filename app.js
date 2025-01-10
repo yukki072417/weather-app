@@ -60,7 +60,6 @@ async function requestWeather() {
     xhr.onload = async () => {
       // Convert string to json.
       const data = JSON.parse(xhr.responseText);
-      console.log(data);
       resolve(data);
     };
   });
